@@ -16,7 +16,7 @@ easy deploy插件部署例子（spring boot项目）
 工程目录下命令执行
 
 ```shell
-mvn clean package -Dmaven.test.skip=true com.github.Mr-lin:easy-deploy:1.0:java-deploy
+mvn clean package -Dmaven.test.skip=true com.github.Mr-lin:easy-deploy:1.0.2:java-deploy
 ```
 
 或者手动打包后在maven插件中点击easy-deploy

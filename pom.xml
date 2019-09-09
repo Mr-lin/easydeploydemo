@@ -48,16 +48,15 @@
 			<plugin>
 				<groupId>com.github.Mr-lin</groupId>
 				<artifactId>easy-deploy</artifactId>
-				<version>1.0</version>
+				<version>1.0.2</version>
 				<configuration>
 					<host>192.168.153.128</host>
-					<user>zhiwei</user>
+					<user>root</user>
 					<password>1234</password>
-					<targetDir>${project.build.directory}\${project.build.finalName}.${pom.packaging}</targetDir>
-					<targetName>${project.build.finalName}.${pom.packaging}</targetName>
-					<remoteDeployDir>/home/zhiwei/test</remoteDeployDir>
-					<deployScript>spring-boot.sh</deployScript>
+					<remoteDeployDir>/home/project/test</remoteDeployDir>
+					<deployScript>/home/project/test/start.sh</deployScript>
 					<logPath>/home/zhiwei/logs/easydeploydemo/easydeploydemo.log</logPath>
+					<isRoot>true</isRoot>
 				</configuration>
 			</plugin>
 		</plugins>
